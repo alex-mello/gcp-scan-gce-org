@@ -1,4 +1,4 @@
-# GCE Inventory on GCP ORG
+# GCE Inventory in GCP ORG
 
 This script was developed to help the teams that work with the Google Cloud Platform by scanning all the instances that are in the GCP Organization. Please remember that this script will be useful if you have the proper permissions to run it, this script should in no way be run from the Cloud Shell.
 
