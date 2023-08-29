@@ -25,7 +25,7 @@ This script was developed to help the teams that work with the Google Cloud Plat
 * Service Usage Viewer
 #### Script execution - Before starting
 * Clone the script repository
-* Apply permission to run the ```sh sudo chmod +x script ```
+* Apply permission to run the ```sudo chmod +x script ```
 * [Let's authenticate with ADC mode](https://cloud.google.com/docs/authentication/provide-credentials-adc?hl=pt-br)
 * Run the gcloud commands to authenticate
 ```sh
