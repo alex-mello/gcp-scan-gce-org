@@ -2,7 +2,8 @@
 
 This script was developed to help the teams that work with the Google Cloud Platform by scanning all the instances that are in the GCP Organization. Please remember that this script will be useful if you have the proper permissions to run it, this script should in no way be run from the Cloud Shell.
 
-![image](https://github.com/alex-mello/gcp-scan-gce-org/assets/39780604/f385754b-5d9e-4472-a286-a5326592aa99)
+![image](https://github.com/alex-mello/gcp-scan-gce-org/assets/39780604/c113125c-680a-43a0-b3fb-d94165e8ef15)
+
 
 ##### Do not run the script from Cloud Shell, due to compatibility with the Pip library, the script will not work correctly.
 
