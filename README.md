@@ -36,4 +36,4 @@ This script was developed to help the teams that work with the Google Cloud Plat
 ```
 * Run the script ```./scan-script-gce-org.sh```
 #### Download CSV
-* Use SCP or [GCP IAP](https://github.com/GoogleCloudPlatform/iap-desktop)
+* Use SCP or [GCP Identity-Aware-Proxy (IAP)](https://github.com/GoogleCloudPlatform/iap-desktop)
