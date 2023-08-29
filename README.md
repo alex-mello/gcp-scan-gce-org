@@ -7,3 +7,26 @@ This script was developed to help the teams that work with the Google Cloud Plat
 ##### Do not run the script from Cloud Shell, due to compatibility with the Pip library, the script will not work correctly.
 
 **The script can be run on your local machine or from a VM within GCP.
+
+# Let's go
+
+#### Python Installation
+Windows
+Linux
+##### Pip Installation
+##### Installation Pypi packages
+googleapiclient
+#### GCP ORG Permissions
+Organization paper reader
+Service Usage Reader
+Organization Viewer
+Folder Viewer
+Compute Viewer
+#### Script execution - Before starting
+Clone the script repository
+Apply permission to run the sudo chmod +x script
+Let's authenticate with ADC mode
+gcloud auth application-default login
+gcloud config set project PROJECT_ID
+Run the script
+#### Download CSV
