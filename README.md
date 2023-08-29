@@ -30,10 +30,10 @@ This script was developed to help the teams that work with the Google Cloud Plat
 * [Let's authenticate with ADC mode](https://cloud.google.com/docs/authentication/provide-credentials-adc?hl=pt-br)
 * Run the gcloud commands to authenticate
 ```sh
-* gcloud auth application-default login
+gcloud auth application-default login
 ```
 ```sh
-* gcloud config set project PROJECT_ID
+gcloud config set project PROJECT_ID
 ```
 * Run the script ```./scan-script-gce-org.sh```
 #### Download CSV
