@@ -26,8 +26,8 @@ This script was developed to help the teams that work with the Google Cloud Plat
 #### Script execution - Before starting
 * Clone the script repository
 * Apply permission to run the sudo chmod +x script
-* Let's authenticate with ADC mode
+* [Let's authenticate with ADC mode](https://cloud.google.com/docs/authentication/provide-credentials-adc?hl=pt-br)
 * gcloud auth application-default login
-* gcloud config set project PROJECT_ID
+* gcloud config set project *PROJECT_ID*
 * Run the script
 #### Download CSV
