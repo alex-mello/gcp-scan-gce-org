@@ -32,7 +32,8 @@ This script was developed to help the teams that work with the Google Cloud Plat
 * gcloud auth application-default login
 ```
 ```sh
-* gcloud config set project *PROJECT_ID*
+* gcloud config set project PROJECT_ID
 ```
 * Run the script ```./scan-script-gce-org.sh```
 #### Download CSV
+* Use SCP or GCP IAP
