@@ -18,16 +18,18 @@ This script was developed to help the teams that work with the Google Cloud Plat
 ##### Installation Pypi packages
 * [googleapiclient](https://pypi.org/project/google-api-python-client/)
 #### GCP ORG Permissions
-* Organization paper reader
-* Service Usage Reader
-* Organization Viewer
-* Folder Viewer
 * Compute Viewer
+* Folder Viewer
+* Organization Role Viewer
+* Organization Viewer
+* Service Usage Viewer
 #### Script execution - Before starting
 * Clone the script repository
 * Apply permission to run the sudo chmod +x script
 * [Let's authenticate with ADC mode](https://cloud.google.com/docs/authentication/provide-credentials-adc?hl=pt-br)
+```sh
 * gcloud auth application-default login
 * gcloud config set project *PROJECT_ID*
+```
 * Run the script
 #### Download CSV
