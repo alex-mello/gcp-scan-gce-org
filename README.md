@@ -11,22 +11,22 @@ This script was developed to help the teams that work with the Google Cloud Plat
 # Let's go
 
 #### Python Installation
-Windows
-Linux
+* Windows
+* Linux
 ##### Pip Installation
 ##### Installation Pypi packages
-googleapiclient
+* googleapiclient
 #### GCP ORG Permissions
-Organization paper reader
-Service Usage Reader
-Organization Viewer
-Folder Viewer
-Compute Viewer
+* Organization paper reader
+* Service Usage Reader
+* Organization Viewer
+* Folder Viewer
+* Compute Viewer
 #### Script execution - Before starting
-Clone the script repository
-Apply permission to run the sudo chmod +x script
-Let's authenticate with ADC mode
-gcloud auth application-default login
-gcloud config set project PROJECT_ID
-Run the script
+* Clone the script repository
+* Apply permission to run the sudo chmod +x script
+* Let's authenticate with ADC mode
+* gcloud auth application-default login
+* gcloud config set project PROJECT_ID
+* Run the script
 #### Download CSV
