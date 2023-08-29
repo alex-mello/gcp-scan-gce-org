@@ -12,10 +12,11 @@ This script was developed to help the teams that work with the Google Cloud Plat
 
 #### Python Installation
 * [Windows](https://python.org.br/instalacao-windows/)
-* Linux
+* [Linux](https://python.org.br/instalacao-linux/)
 ##### Pip Installation
+* [pip Install](https://packaging.python.org/en/latest/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers)
 ##### Installation Pypi packages
-* googleapiclient
+* [googleapiclient](https://pypi.org/project/google-api-python-client/)
 #### GCP ORG Permissions
 * Organization paper reader
 * Service Usage Reader
