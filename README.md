@@ -11,7 +11,7 @@ This script was developed to help the teams that work with the Google Cloud Plat
 # Let's go
 
 #### Python Installation
-* Windows
+* [Windows](https://python.org.br/instalacao-windows/)
 * Linux
 ##### Pip Installation
 ##### Installation Pypi packages
