@@ -17,7 +17,7 @@ prjs=( $(gcloud projects list | tail -n +2 | awk {'print $1'}) )
 # Loop through each project
 for i in "${prjs[@]}"
 do
-    # Set the default quota project
+    # Set the default quota project used by any library that requests Application Default Credentials (ADC)
     log "Setting default quota project: $i"
     gcloud auth application-default set-quota-project $i >> "$LOG_FILE"
 
