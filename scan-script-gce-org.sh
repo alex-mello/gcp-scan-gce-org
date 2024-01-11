@@ -9,7 +9,7 @@ log() {
 }
 
 # Header for the CSV file
-echo "PROJECT ID, NAME, ZONE, TYPE MACHINE, STATUS, SO, CPU, MEMORY, DISC, PRIVATE IP, STATUS_IP, IP PUBLICO" > gce-inventory_org.csv
+echo "PROJECT ID, NAME, ZONE, TYPE MACHINE, STATUS, SO, CPU, MEMORY, DISC, PRIVATE IP, STATUS_IP, PUBLIC IP" > gce-inventory_org.csv
 
 # Array of GCP project IDs
 prjs=( $(gcloud projects list | tail -n +2 | awk {'print $1'}) )
