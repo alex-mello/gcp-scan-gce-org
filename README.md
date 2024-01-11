@@ -23,7 +23,7 @@ This script was developed to help the teams that work with the Google Cloud Plat
 * Folder Viewer
 * Organization Role Viewer
 * Organization Viewer
-* Service Usage Viewer
+* Service Usage Consumer
 #### Script execution - Before starting
 * Clone the script repository
 * Apply permission to run the ```sudo chmod +x scan-script-gce-org.sh ```
