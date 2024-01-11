@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "NOME DO PROJETO, NOME, LOCALIZACAO, TIPO DA MAQUINA, STATUS, SO, CPU, MEMORIA, DISCOS, IP PRIVADO, IP PUBLICO" > gce-inventory_org.csv
+echo "PROJECT NAME, NAME, ZONE, TYPE MACHINE, STATUS, SO, CPU, MEMORY, DISC, PRIVATE IP, STATUS_IP, IP PUBLICO" > gce-inventory_org.csv
 prjs=( $(gcloud projects list | tail -n +2 | awk {'print $1'}) )
 for i in "${prjs[@]}"
     do
